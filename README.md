@@ -3,13 +3,14 @@
 * Pseudo alumno para probar en GitHub
 * Usando nausicachihiro
 * He creado la clave `chuchu` con `ssh-keygen` y la he publicado en github 
-* Véase esta entrada en `~/.ssh/config`
+* Añado una entrada como esta en `~/.ssh/config`
 
             Host github-nausica.com
             HostName github.com
             user git
             IdentityFile /Users/casiano/.ssh/chuchu
-* El remote del repo debe ser cambiado de acuerdo:
+* El remote que nos da github del repo `git@github.com:nausicachijiro/testing.git`
+debe ser cambiado de acuerdo a lo hecho en `~/.ssh/config`:
 
             $ git remote -v
             origin git@github-nausica.com:nausicachijiro/testing.git
