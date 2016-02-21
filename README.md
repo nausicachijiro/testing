@@ -1,6 +1,6 @@
 # Ejemplo de como cambiar en GitHub el usuario por defecto para un repo 
 
-* Pseudo alumno `nausicachijiro` para probar GitHub Classroom como alumno
+* Pseudo alumno `nausicachijiro` para probar [GitHub Classroom](https://classroom.github.com) como alumno
 * He creado la clave `chuchu` con `ssh-keygen` y la he publicado en github 
 * Añado una entrada como esta en `~/.ssh/config`
 
